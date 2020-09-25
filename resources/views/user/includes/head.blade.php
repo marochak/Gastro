@@ -6,7 +6,7 @@
     <title>AdminLTE 3 | Dashboard 3</title>
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="{{ asset('asset/adl/font-awesome/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/adl/font-awesome/font-awesome.min.css') }}">
     <!-- IonIcons -->
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Theme style -->

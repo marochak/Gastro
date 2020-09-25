@@ -21,8 +21,8 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/home';
-    public const ADMIN = 'admin/Dashboard';
+    public const HOME = '/company/Dashboard';
+    public const ADMIN = '/admin/Dashboard';
 
     /**
      * Define your route model bindings, pattern filters, etc.
@@ -48,6 +48,8 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapWebRoutes();
 
         $this->mapAdminRoutes();
+
+        $this->mapCompanyRoutes();
 
         //
     }
@@ -87,5 +89,13 @@ class RouteServiceProvider extends ServiceProvider
             ->middleware('web')
             ->namespace($this->namespace)
             ->group(base_path('routes/admin.php'));
+    }
+
+    protected function mapCompanyRoutes()
+    {
+        Route::prefix('company')
+            ->middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/company.php'));
     }
 }
