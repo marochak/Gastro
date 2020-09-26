@@ -21,14 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="2781d6ec-4979-417e-a139-47921bc4e513" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asset/adl/font-awesome/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/asset/adl/font-awesome/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/includes/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Company/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Company/CompanyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Company/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Company/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/includes/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/includes/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/includes/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/company.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/company.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600953898047</updated>
       <workItem from="1600953899371" duration="21873000" />
-      <workItem from="1601042343903" duration="11489000" />
+      <workItem from="1601042343903" duration="29236000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -224,9 +227,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="699" y="345" key="SimpleOpenTaskDialog/0.0.1600.860@0.0.1600.860" timestamp="1600960692360" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1601054611947">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1601121778471">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1601054611947" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1601121778471" />
   </component>
 </project>

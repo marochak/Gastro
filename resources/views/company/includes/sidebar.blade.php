@@ -42,9 +42,9 @@
 
                 {{-- Home Page --}}
                 <li class="nav-item">
-                    <a href="#" class="nav-link ">
+                    <a href="{{ route('company.create') }}" class="nav-link ">
                         <i class="nav-icon fa fa-home"></i>
-                        <p>Home Page</p>
+                        <p>Information Générale</p>
                     </a>
                 </li>
 

@@ -14,4 +14,16 @@ class Company extends Model
     protected $fillable = [
         'name', 'description', 'address', 'city', 'country' , 'phone','Fax' , 'email' , 'start_time', 'end_time','logo','user_id'
     ];
+
+    public function getRouteKeyName()
+    {
+        return 'name';
+    }
+
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
+
+
 }

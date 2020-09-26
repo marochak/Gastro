@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@include('user.includes.head')
+@include('company.includes.head')
 
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
 
-@include('user.includes.navbar')
+@include('company.includes.navbar')
 
-@include('user.includes.sidebar')
+@include('company.includes.sidebar')
 
 <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -26,7 +26,7 @@
 
         <!-- Main content -->
         <div class="content">
-            <div class="container-fluid">
+            <div class="container-fluid" style="min-height: 100vh;">
 
                 @yield('content')
 
@@ -40,7 +40,7 @@
 </div><!-- / .wrapper -->
 
 
-@include('user.includes.footer')
+@include('company.includes.footer')
 
 <!-- REQUIRED SCRIPTS -->
 
@@ -56,7 +56,7 @@
 <script src="{{ asset('asset/adl/js/demo.js') }}"></script>
 <script src="{{ asset('asset/adl/js/pages/dashboard3.js') }}"></script>
 
-@yield('scriptJs')
+@yield('Javascript')
 
 </body>
 </html>
